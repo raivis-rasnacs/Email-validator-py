@@ -18,6 +18,6 @@ if ... in domains:
 
 **Specifikācija:**<br>
 Sastādi algoritmu, kas ievadītai e-pasta adresei veic validāciju, ievērojot visus iepriekšminētos kritērijus.<br>
-Ja visi kritēriji ir ievēroti, programma izvada ziņojumu **"E-pasts ir derīgs!"**, citādi izvada paziņojumu **"Nederīgs e-pasts!"**<br>
+Ja visi kritēriji ir ievēroti, programma izvada ziņojumu **"E-pasts ir derīgs!"**, <br>citādi izvada paziņojumu **"Nederīgs e-pasts!"**<br>
 Atceries komentēt kodu!<br>
 **Pēdējā rindā pievieno komentāru ar savu uzvārdu un klasi!**
