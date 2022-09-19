@@ -9,11 +9,15 @@ Lai autorizētos interneta vietnēs, dažkārt nepieciešams norādīt savu e-pa
 
 **Realizācija:**<br>
 1. No adreses jāatdala domēnvārds un jāsaglabā jaunā mainīgajā
-2. Lai pārbaudītu domēnvārda atbilstību, vari izmantot pierakstu **if ... in domains**.
-3. Lai pārbaudītu aizliegtos simbolus, veido zarojumu ar operatoru *and* vai deklarē jaunu sarakstu (kā domēniem)
+2. Lai pārbaudītu domēnvārda atbilstību, vari izmantot pierakstu 
+~~~py
+if ... in domains:
+  # darbības
+~~~
+4. Lai pārbaudītu aizliegtos simbolus, veido zarojumu ar operatoru *and* vai deklarē jaunu sarakstu (kā domēniem)
 
 **Specifikācija:**<br>
 Sastādi algoritmu, kas ievadītai e-pasta adresei veic validāciju, ievērojot visus iepriekšminētos kritērijus.<br>
-Ja visi kritēriji ir ievēroti, programma izvada ziņojumu **"Adrese derīga!"**, citādi izvada paziņojumu **"Nederīga adrese!"**<br>
+Ja visi kritēriji ir ievēroti, programma izvada ziņojumu **"E-pasts ir derīgs!"**, citādi izvada paziņojumu **"Nederīgs e-pasts!"**<br>
 Atceries komentēt kodu!<br>
 **Pēdējā rindā pievieno komentāru ar savu uzvārdu un klasi!**
