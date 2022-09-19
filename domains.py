@@ -1,4 +1,4 @@
-domains = [
+domain_names = [
   ".ch",
   ".af",
   ".aa",
