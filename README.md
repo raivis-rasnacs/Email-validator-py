@@ -1,11 +1,11 @@
 # Email-validator-py
 Uzdevums par e-pasta adreses validāciju
 ---
-**Problēmas apraksts:**
+**Problēmas apraksts:**<br>
 Lai autorizētos interneta vietnēs, dažkārt nepieciešams norādīt savu e-pasta adresi. Lai pārliecinātos, vai norādītā adrese ir derīga, veic tās validāciju. Tiek ņemti vērā vairāki kritēriji:<br>
 * Tajā ir atrodams @ simbols
 * Adrese beidzas ar kādu no domēniem, kas doti failā domains.py. Domēnvārdi no šī faila ir importēti kā saraksts **domains**, kas tev būs jāizmanto algoritmā.
-* Adresē nav sastopami tādi simboli kā / \ ? ! < > * - + ,
+* Adresē nav sastopami tādi simboli kā ? ! , +
 
 **Realizācija:**<br>
 1. No adreses jāatdala domēnvārds un jāsaglabā jaunā mainīgajā
@@ -14,7 +14,7 @@ Lai autorizētos interneta vietnēs, dažkārt nepieciešams norādīt savu e-pa
 if ... in domains:
   # darbības
 ~~~
-4. Lai pārbaudītu aizliegtos simbolus, veido zarojumu ar operatoru *and* vai deklarē jaunu sarakstu (kā domēniem)
+4. Lai pārbaudītu aizliegtos simbolus, veido zarojumu ar operatoru *or*
 
 **Specifikācija:**<br>
 Sastādi algoritmu, kas ievadītai e-pasta adresei veic validāciju, ievērojot visus iepriekšminētos kritērijus.<br>
