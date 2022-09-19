@@ -241,4 +241,4 @@ domain_names = [
   ".ye",
   ".za",
   ".rh"
-  }
+]
